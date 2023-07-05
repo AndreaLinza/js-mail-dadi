@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail</title>
+    <link rel="stylesheet" href="../css/mail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+    <div class="container text-center text-light">
+
+        <header class="bg-success py-4 mb-3">
+            <h1 class="">Il sito più cool per inserire la tua email</h1>
+            <p>Tranquillo siamo sicurissimi</p>
+        </header>
+    </div>
+    <div class="container">
+
+        <form class="row justify-content-center g-3">
+            <div class="col-md-6">
+                <label for="input-email" class="form-label">Email</label>
+                <input type="email" name="input-email" class="form-control" id="input-email">
+            </div>    
+            <div class="col-12">
+                <button type="button" class="btn btn-primary btn-submit">Accedi</button>
+            </div>
+        </form>
+
+        <h2 class="text-center text-danger" id="check"></h2>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="../js/mail.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- Mail
+Chiedi all’utente la sua email,
+controlla che sia nella lista di chi può accedere,
+stampa un messaggio appropriato sull’esito del controllo.
+Usiamo un input in html per inserire la mail da cercare.
+Gioco dei dadi
+Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+Stabilire il vincitore, in base a chi fa il punteggio più alto.
+BONUS: far inserire 3 numeri all’utente, generare per il pc 3 numeri, e dopo aver calcolato la somma dei numeri dell’utente e dei numeri del pc, capire chi ha vinto in base alla somma maggiore.
+Prima di partire a scrivere codice poniamoci qualche domanda:
+Che ci sia un array da qualche parte?
+Se dobbiamo confrontare qualcosa che “cosa” ci serve?
+Consigli del giorno:
+1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
+2. javascript non fa nulla da solo, dobbiamo dirgli noi cosa vogliamo fare
+3. si ma noi cosa vogliamo fare?
+4. torniamo a scrivere in italiano
+5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo “a mano” -->
