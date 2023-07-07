@@ -4,6 +4,8 @@ const mailList = ["al@li.it", "superflorian@boolean.it", "salvatorebono@superhot
 const mail = document.getElementById("input-email");
 const btnSubmit = document.querySelector(".btn-submit");
 
+console.log(mailList)
+
 
 
 // button submit
